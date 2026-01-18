@@ -36,7 +36,7 @@
   left: 30px;
 }
 
-.nav__list {
+.nav__links {
   display: flex;
   gap: 20px;
   list-style: none;
