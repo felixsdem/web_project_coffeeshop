@@ -26,7 +26,7 @@
   </head>
   <body>
     <div class="page">
-      <header class="header">
+      <header class="header" id="header">
         <nav class="header__nav">
           <img
             src="../images/logo_coffeeshop_dark.svg"
@@ -34,9 +34,11 @@
             class="header__logo"
           />
           <ul class="nav__list">
-            <li><a href="#" class="nav__link">Recetas</a></li>
-            <li><a href="#" class="nav__link">Reservar una mesa</a></li>
-            <li><a href="#" class="nav__link">Contactos</a></li>
+            <li><a href="#recipes" class="nav__link">Recetas</a></li>
+            <li>
+              <a href="#reservation" class="nav__link">Reservar una mesa</a>
+            </li>
+            <li><a href="#contacts" class="nav__link">Contactos</a></li>
           </ul>
         </nav>
 
@@ -69,11 +71,44 @@
       </header>
 
       <main class="content">
-        <section class="recipes"></section>
-        <section class="reservation"></section>
+        <section class="recipes" id="recipes">
+          <h2 class="recipes__title">Recetas</h2>
+          <p class="recipes__subtitle">
+            Echa un vistazo a las recetas que hemos reunido para que elabores
+            tus propios snacks.
+          </p>
+
+          <div class="recipes__videos">
+            <div class="recipes__video-item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                title="Receta en Aeropress"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__video-caption">
+                Receta en Aeropress<br />~5 min
+              </p>
+            </div>
+
+            <div class="recipes__video-item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                title="Receta en cafetera francesa"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__video-caption">
+                Receta en cafetera francesa<br />~15 min
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="reservation" id="reservation"></section>
       </main>
 
-      <footer class="footer"></footer>
+      <footer class="footer" id="contacts"></footer>
     </div>
   </body>
 </html>
