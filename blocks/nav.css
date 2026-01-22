@@ -16,6 +16,7 @@
   text-decoration: none;
   font-weight: 500;
   color: #000000;
+  transition: color 0.3s ease;
 }
 
 .nav__link:hover {
