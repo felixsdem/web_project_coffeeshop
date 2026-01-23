@@ -6,3 +6,9 @@
   font-size: 16px;
   line-height: 20px;
 }
+
+.span-accent {
+  color: #2f80ed;
+  font-style: italic;
+  display: block;
+}
